@@ -3,7 +3,11 @@ package prime;
 import java.util.Scanner;
 
 public class DisplayPrimeNumbers {
+  /**
+   * Main method to start the program.
+   */
     public static void main(String[] args) {
+      // Instance creation for NumberUtility.
       PrimeNumberCalculator primeNumberCalculator = new PrimeNumberCalculator();
       Scanner input = new Scanner(System.in);
       boolean isRunning = true;
